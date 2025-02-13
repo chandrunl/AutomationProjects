@@ -88,12 +88,7 @@ public class AxeAccessibilityimplementation {
                 });
                 test.info("<b>Failed Elements:</b><br>" + failedElements.toString());
             }
-        captureScreenshot(page);
-        
-        
-        
-        
-		/*
+        captureScreenshot(page);		/*
 		 * page.waitForTimeout(2000); page.locator("css=img[alt='Log In']").click();
 		 * page.locator("#accountNo").click(); //------> Access Info Page Accessibility
 		 * Issues AxeResults accessibilityScanResults1 = new AxeBuilder(page)
