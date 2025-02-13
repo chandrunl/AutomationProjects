@@ -89,7 +89,10 @@ public class AxeAccessibilityimplementation {
                 test.info("<b>Failed Elements:</b><br>" + failedElements.toString());
             }
         captureScreenshot(page);
-        //comments 
+        
+        
+        
+        
 		/*
 		 * page.waitForTimeout(2000); page.locator("css=img[alt='Log In']").click();
 		 * page.locator("#accountNo").click(); //------> Access Info Page Accessibility
